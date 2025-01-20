@@ -93,7 +93,8 @@ section h2::after {
   background-color: var(--background-color);
   height: 4px;
   bottom: -15px;
-  left: 35%;
+  left: 25%;
+  border-radius: 50px;
 }
 
 #about-section {
@@ -167,6 +168,35 @@ section h2::after {
 }
 
 #about-section .social-links i {
+  color: var(--background-color);
+  font-weight: 500;
+}
+#skills-section .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem; /* Add gap between icons */
+}
+
+#skills-section {
+  font-size: 2.65rem;
+}
+
+#skills-section i {
+  font-size: 3rem;
+  color: var(--background-color);
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+  margin: 1rem 0; /* Add margin to ensure proper spacing */
+}
+
+#skills-section i:hover {
+  transform: scale(1.2);
+  color: #473bf0;
+}
+
+#skills-section i {
   color: var(--background-color);
   font-weight: 500;
 }
