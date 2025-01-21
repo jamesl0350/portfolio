@@ -200,3 +200,58 @@ section h2::after {
   color: var(--background-color);
   font-weight: 500;
 }
+
+#leave-a-message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#leave-a-message form {
+  display: flex;
+  height: 25rem;
+  width: 35rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--background-color);
+  padding: 1rem 1rem;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+#leave-a-message form input {
+  margin: 0.7rem 0.5rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+}
+
+#leave-a-message form input:focus {
+  outline: none;
+  border: 2px solid var(--text-color);
+  box-shadow: 0 0 5px white;
+}
+
+#leave-a-message textarea {
+  font-family: "Poppins", serif;
+  vertical-align: top;
+  text-align: left;
+  padding: 0.5rem;
+  height: 10rem;
+  width: 100%;
+  border-radius: 15px;
+  border-color: var(--text-color);
+  border: 1px solid black;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+#leave-a-message textarea:focus {
+  outline: none;
+  border: 2px solid var(--text-color);
+  box-shadow: 0 0 5px white;
+}
